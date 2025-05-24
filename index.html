@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida em Missão</title>
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo-com-imagem">
+            <img src="imagens/favicon.png" alt="Logo Vida em Missão">
+            <div class="titulo-textos">
+                <h1>Vida em Missão</h1>
+                <p class="subfrase">Conhecer · Viver · Transformar</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="conteudo-principal">
+        <div class="topico">
+            <button class="topico-btn"><strong>Quem somos</strong></button>
+            <ul class="topico-conteudo">
+                <li>Equipe - NFAMU</li>
+                <li>Ideal</li>
+                <li>Missão</li>
+                <li>Valores</li>
+                <li>História</li>
+            </ul>
+        </div>
+
+        <div class="topico">
+            <button class="topico-btn"><strong>Curso avançado missão urbana</strong></button>
+            <ul class="topico-conteudo">
+                <li>Campo Missionário</li>
+                <li>Conteúdo de Ensino</li>
+                <li>Formação Espiritual</li>
+                <li>Evangelismo Prático</li>
+                <li>Evangelismo Teórico</li>
+                <li>Evangelismo nas Mensagens Angélicas</li>
+                <li>Interpretação Bíblica</li>
+                <li>Discipulado I e II</li>
+                <li>Dons Proféticos</li>
+                <li>Reforma de Saúde</li>
+                <li>Obra Médico-Missionária</li>
+                <li>Liderança e Ministérios de Apoio</li>
+            </ul>
+        </div>
+
+        <div class="topico">
+            <button class="topico-btn"><strong>Instrutores voluntários 2025</strong></button>
+            <ul class="topico-conteudo">
+                <li>Pr. Péricles (Marrocos)</li>
+                <li>Rodrigo (Brasil)</li>
+                <li>David Monte (Brasil)</li>
+                <li>Priscila (Brasil)</li>
+                <li>Amy (Brasil)</li>
+                <li>Erick (Espanha)</li>
+                <li>Neto (Angola)</li>
+                <li>Carlos Stencil (Brasil)</li>
+                <li>Jorge, Jornadir, Nadia, Sabrina, Anderson (Brasil)</li>
+            </ul>
+        </div>
+
+        <div class="topico">
+            <button class="topico-btn"><strong>Pré-requisito</strong></button>
+            <ul class="topico-conteudo">
+                <li>Ser membro da IASD</li>
+                <li>Formação básica em evangelismo</li>
+                <li>Recomendação da comissão diretiva</li>
+                <li>Biografia com testemunho (mín. 500 palavras)</li>
+                <li>Escrever uma página sobre o porquê de participar</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="video-convite">
+        <h1>Nosso convite para você!</h1>
+        <video controls poster="imagens/thumb.jpg">
+          <source src="imagens/video missao.mp4" type="video/mp4">
+        </video>  
+        <p>Este vídeo foi preparado com carinho para te convidar a participar do projeto Vida em Missão. <br>Assista com atenção e sinta-se parte desta jornada de fé e transformação.</p>
+    </section>
+
+    <section id="localizacao">
+        <h1><strong>Localização</strong></h1>
+        <a href="https://maps.app.goo.gl/9SgX21LD8E6fYT759" target="_blank">
+            <img src="imagens/bh.jpg" alt="Mapa de Belo Horizonte" class="mapa-img">
+        </a>
+        <p>Clique na imagem para abrir a localização no Google Maps.</p>
+    </section>
+
+    <footer>
+        <section id="eventos">
+            <h1>Formulário de Inscrição</h1>
+            <div class="eventos-lista">
+                <div class="evento">
+                    <p>Preencha o Forms com alguns dados, Ex.: Nome completo, endereço (Cidade, Estado e País), Igreja (Membro), Associação/Missão. <br>Responda algumas perguntas: Biografia espiritual, recomendações e propósito no Projeto Vida em Missão.</p>
+                </div>
+                <div class="form-container">
+                  <div style="text-align: center;">
+                    <a class="botao-forms" href="https://docs.google.com/forms/d/e/1FAIpQLSdleLuWpgH8tldhOALwryCF7496pjXfWlZYThEF9hLBdXeiTA/viewform" target="_blank">
+                      Acessar Formulário de Inscrição
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="evento">
+                    <h1>Informações das palestras</h1>
+                    <h3>Encontro de Psicologia Cristã</h3>
+                    <p>Data: 22 de julho de 2025</p>
+                    <p>Descrição: Encontro de especialistas para discussões sobre psicologia e fé.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="popup-contato" class="popup-overlay">
+          <div class="popup-conteudo">
+            <span class="popup-fechar" onclick="fecharPopup()">&times;</span>
+            <h2>Fale Conosco</h2>
+            <ul>
+              <li><a href="https://chat.whatsapp.com/HtrxUtjwEQwJZvlLW7jA2T" target="_blank">Entrar no grupo do WhatsApp</a></li>
+              <li><a href="mailto:p.vidaemmissao@gmail.com">Enviar um e-mail</a></li>
+              <li><a href="https://wa.me/3194194391" target="_blank">Falar com o suporte no WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato para saber mais sobre admissões e programas!</p>
+            <button onclick="mostrarAlerta()">Fale Conosco</button>
+        </section>
+
+        <div class="rodape-final">
+            &copy; 2025 Vida em Missão
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
